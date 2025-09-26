@@ -1,0 +1,125 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Home background with pizza image + overlay */
+body.home {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+  url('https://images.unsplash.com/photo-1504674900247-0877df9cc836') center/cover no-repeat;
+}
+
+/* About background */
+body.about {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+              url('https://images.unsplash.com/photo-1504674900247-0877df9cc836') center/cover no-repeat;
+}
+
+/* Menu background */
+body.menu {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+              url('https://images.unsplash.com/photo-1601924928580-6f44c9d1786d?auto=format&fit=crop&w=1200') center/cover no-repeat;
+}
+
+
+/* Order background */
+body.order {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+              url('https://images.unsplash.com/photo-1525610553991-2bede1a236e2') center/cover no-repeat;
+}
+
+/* Contact background */
+body.contact {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+              url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4') center/cover no-repeat;
+}
+
+/* Header/Nav */
+header {
+  background: rgba(0,0,0,0.7);
+  padding: 15px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(5px);
+}
+
+header h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  padding: 8px 15px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  background: #ffd700;
+  color: #000;
+}
+
+/* Main content */
+main {
+  flex: 1;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+h1, h2 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+/* Button */
+.btn {
+  background: #ffd700;
+  padding: 12px 25px;
+  border-radius: 25px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #000;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #fff;
+  color: #000;
+}
+
+/* Footer */
+footer {
+  background: rgba(0,0,0,0.8);
+  padding: 20px;
+  text-align: center;
+  font-size: 0.9rem;
+}
+footer a:hover {
+  color: #ffd700;
+  transition: 0.3s;
+}
